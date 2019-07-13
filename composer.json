@@ -1,6 +1,6 @@
 {
   "name": "hgh/yii-input-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "library",
   "description": "Using this library, You can validate value of any element using rules",
   "keywords": [

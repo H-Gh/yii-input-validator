@@ -1,5 +1,10 @@
+
+  
+    
 # Yii Input Validator    
 Using this library you can validate value of `html` `inputs`.
+
+![License](https://img.shields.io/github/license/H-Gh/yii-input-validator.svg?style=flat-square)  ![Code size](https://img.shields.io/github/languages/code-size/H-Gh/yii-input-validator.svg?color=red&style=flat-square)
 
 ## Usage
 ### Register Yii2 Asset  
@@ -47,6 +52,14 @@ $(document).on("customValidateValue", function (event) {
 
 ## Rules
 Some pattern can have custom message. If any `rule` get some attributes, it get attributes as a `json`.
+***Note*** : *You can use multi rules. just separate them using `space`.*
+* [required](#required)
+* [number](#number)
+* [ne](#ne)
+* [nin](#nin)
+* [in](#in)
+* [regex](#regex)
+
 ### required
 ##### Description:
 This rule, check `length` of `input` value.
