@@ -1,0 +1,31 @@
+{
+  "name": "hgh/yii-input-validator",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "Using this library, You can validate value of any element using rules",
+  "keywords": [
+    "jQuery",
+    "JavaScript",
+    "Yii2",
+    "PHP"
+  ],
+  "homepage": "https://github.com/H-Gh/yii-input-validator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hamed Ghasempour",
+      "email": "hamedghasempour@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "components/jquery": "*",
+    "yiisoft/yii2": "~2.0.0",
+    "hgh/yii-js-event-handler": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hgh\\YiiInputValidator\\": "src/"
+    }
+  }
+}
